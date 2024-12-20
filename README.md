@@ -1,2 +1,3 @@
-# Assignment
-C Language assignment NUB
+# CSE 1157
+Assignment
+C Language Assignment NUB
