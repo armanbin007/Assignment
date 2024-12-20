@@ -1,3 +1,2 @@
 # CSE 1157
-Assignment
-C Language Assignment NUB
+Structured Programming Language Assignment NUB
