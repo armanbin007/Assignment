@@ -13,17 +13,8 @@ int main(){
     }
     int union_array[n + m];
     for(int i = 0; i < n; i++){
-        int exists = 0;
-        for(int k = 0; k < size; k++){
-            if(union_array[k] == A[i]){
-                exists = 1;
-                break;
-            }
+        union_array[size++] = A[i];
         }
-        if(!exists){
-            union_array[size++] = A[i];
-        }
-    }
     for(int i = 0; i < m; i++){
         int exists = 0;
         for(int k = 0; k < size; k++) {
