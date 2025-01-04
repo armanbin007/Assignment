@@ -19,21 +19,18 @@ int main(){
                 found = 1;
                 break;
             }
-        }
-        if(found){
+        } if(found){
             int exists = 0;
-            for(int k = 0; k < size; k++) {
-                if(intersection[k] == A[i]) {
+            for(int k = 0; k < size; k++){
+                if(intersection[k] == A[i]){
                     exists = 1;
                     break;
                 }
-            }
-            if(!exists){
+            } if(!exists){
                 intersection[size++] = A[i];
             }
         }
-    }   
-    if(size == 0){
+    } if(size == 0){
         printf("Empty set");
     } else{
         for(int i = 0; i < size; i++){
